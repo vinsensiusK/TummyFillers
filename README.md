@@ -1,4 +1,4 @@
-<img src="app/src/main/ic_launcher-web.png" align="right"  />
+<img src="app/src/main/ic_launcher-web.png" align="right" width=155dp />
 
 # Tummy Fillers
 > Solusi dari kelaparan anda semua!.
