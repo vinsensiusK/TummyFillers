@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    tools:context="com.example.darkfellow.tummyfillers.SignIn">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/linear1">
+
+        <ImageView
+            android:src="@drawable/logo_tanpa_piring"
+            android:layout_width="140dp"
+            android:layout_height="140dp" android:contentDescription="@string/todo" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/linear1"
+        android:id="@+id/linLay">
+
+        <EditText
+            android:id="@+id/logEmail"
+            android:hint="@string/email"
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:textColorHint="@android:color/darker_gray"
+            android:textColor="@android:color/white"
+            android:textSize="20sp"
+            android:inputType="textEmailAddress"
+            android:backgroundTint="@color/colorPrimary"
+            />
+
+
+        <EditText
+            android:id="@+id/logPass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/password"
+            android:inputType="textPassword"
+            android:textColor="@android:color/white"
+            android:textColorHint="@android:color/darker_gray"
+            android:textSize="20sp"
+            android:backgroundTint="@color/colorPrimary"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/toggleShow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/LoginBtn"
+        android:layout_marginBottom="16dp"
+        android:layout_marginStart="25dp"
+        android:layout_toEndOf="@+id/linLay"
+        android:text="@string/show"
+        android:textColor="@color/white"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/LoginBtn"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linLay"
+        android:layout_centerHorizontal="true"
+        android:text="@string/signIn"
+        android:layout_marginTop="13dp"
+        android:background="@color/colorPrimary"/>
+
+    <TextView
+        android:id="@+id/forgotPass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/LoginBtn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="12dp"
+        android:text="@string/forgotPass"
+        android:textColor="@color/colorAccent"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/or1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/forgotPass"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="38dp"
+        android:text="@string/or"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="20sp"/>
+
+    <com.google.android.gms.common.SignInButton
+        android:id="@+id/SignInGoogle"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/or1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="22dp" />
+
+    <TextView
+        android:id="@+id/donthave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="6dp"
+        android:layout_toEndOf="@+id/imageView3"
+        android:text="   Don't have an account?"
+        android:textColor="@color/white"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/doRegister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/donthave"
+        android:layout_alignBottom="@+id/donthave"
+        android:layout_toEndOf="@+id/donthave"
+        android:text="  Register"
+        android:textColor="@color/colorAccent"
+        android:textStyle="bold" />
+
+    <ProgressBar
+        android:id="@+id/progressBar2"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center|bottom"
+        android:layout_marginBottom="20dp"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/linLay"
+        android:layout_marginTop="7dp"
+        android:layout_toStartOf="@+id/linLay"
+        android:src="@drawable/email"
+        android:tint="@android:color/darker_gray"/>
+
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/LoginBtn"
+        android:layout_below="@id/imageView"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="13dp"
+        android:layout_toStartOf="@+id/linLay"
+        android:src="@drawable/ic_action_name"
+        android:tint="@android:color/darker_gray" />
+
+</RelativeLayout>

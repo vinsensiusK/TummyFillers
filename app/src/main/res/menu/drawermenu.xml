@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/nav_com" android:title="Coming Soon" android:icon="@drawable/coming_soon2"/>
+    <!--<item android:id="@+id/hto" android:title="How To Order" android:icon="@drawable/ic_live_help_black_24dp"/>-->
+    <item android:id="@+id/nav_Help" android:title="Help" android:icon="@drawable/help"/>
+    <item android:id="@+id/nav_home" android:title="Home" android:icon="@drawable/ic_home_black_24dp"/>
+    <item android:id="@+id/nav_tummycash" android:title="Tummy Case" android:icon="@drawable/cash"/>
+    <item android:id="@+id/nav_profile" android:title="Profile" android:icon="@drawable/profile"/>
+
+
+    <!--<item android:id="@+id/lo" android:title="Logout" android:icon="@drawable/ic_exit_to_app_black_24dp"/>-->
+</menu>
