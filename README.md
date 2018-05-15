@@ -6,7 +6,7 @@
 
 
 
-Tummy Fillers merupkan project atau tugas dari universitas kami yang tidak boleh diketahui namanya. Anda penasaran? coba cari tahu deh
+Tummy Fillers adalah online catering berbasis Mobile Application yang dibuat dengan tujuan membantu orang-orang yang tidak sempat meluangkan waktu untuk masak atau makan. Tummy Fillers menyediakan makanan sehat, ekonomis dan variatif, membantu memantau nutrisi dan kalori makanan yang di konsumsi, serta memberikan jasa pengiriman yang fleksible sesuai keinginan demi kenyamanan user.
 
 ![](header.png)
 
@@ -30,11 +30,9 @@ A few motivating and useful examples of how your product can be used. Spice this
 
 _For more examples and usage, please refer to the [Wiki][wiki]._
 
-Ngebacot aja biar bagus gitu README.md nya
-
 ## Development setup
 
-Clone atau download gitnya.. lalu masukan ke dalam folder AndroidStudioProjects, lalu buka di android studionya
+Clone atau download git, masukkan ke dalam folder AndroidStudioProjects, kemudian buka di program Android Studio
 
 ```sh
 https://github.com/vinsensiusK/TummyFillers.git
